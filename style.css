@@ -7,6 +7,35 @@ span {
     font-family: monospace;
 }
 
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(243, 243, 243);
+    padding: 0.5em 1em;
+    margin-bottom: 3em;
+}
+
+
+
+.nav-links {
+    margin-left: auto;
+    display: flex;
+    
+}
+
+.nav-links li {
+    margin: auto 1em;
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -29,7 +58,7 @@ span {
     height: 60%;
 }
 
-a {
+.card a {
     text-decoration: none;
     background-color: cornflowerblue;
     padding: 0.5em;
@@ -37,4 +66,28 @@ a {
     border-radius: 0.5em;
     margin-bottom: 0.5em;
     color: whitesmoke;
+}
+
+
+.about-presentazione {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+}
+
+.about-presentazione img {
+    width: 20%;
+    border-radius: 1em;
+    margin-right: 2em;
+}
+
+.lista-competenze {
+    list-style-type: circle;
+}
+
+.lista-competenze li {
+    padding: 0.3em;
 }
