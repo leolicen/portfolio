@@ -35,8 +35,19 @@ span {
     color: black;
 }
 
+footer {
+    width: 93%;
+    background-color: rgb(243, 243, 243);
+    padding: 1em;
+    margin-top: 2em;
+    position: absolute;
+    bottom: 1em;
+}
+
+
 
 .card-container {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 1em;
